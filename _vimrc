@@ -30,6 +30,8 @@ syntax on
 
 set nocompatible
 
+set bg=light
+
 "フォーマット"
 set encoding=utf-8
 "set fileencodings=iso-2022-jp,euc-jp,sjis,utf-8
@@ -49,6 +51,7 @@ set shiftwidth=2
 
 "エイリアス"
 command F VimFiler
+command FE VimFilerExplorer
 
 "lightline.vim
 set laststatus=2
