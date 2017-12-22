@@ -1,6 +1,6 @@
 [user]
 	name = ypadawann
-	email = 
+	email = ypadawann@github
 [core]
 	editor = vim
 	pager = "lv -c"
