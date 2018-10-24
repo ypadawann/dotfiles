@@ -25,10 +25,26 @@ NeoBundleLazy 'vim-ruby/vim-ruby' ,{
 \    "autoload" : {"filetypes" : ["ruby"]}
 \}
 
+
+" Start Vundle
+" git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+" :PluginInstall
+set nocompatible
+filetype off
+
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+
+Plugin 'VundleVim/Vundle.vim'
+Plugin 'leafgarland/typescript-vim'
+
+call vundle#end()
+filetype plugin indent on
+" End Vundle
+
 syntax on
 
 
-set nocompatible
 
 set bg=light
 
