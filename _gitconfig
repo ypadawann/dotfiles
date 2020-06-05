@@ -20,3 +20,7 @@
 
 [color "branch"]
 	current = cyan
+
+[Alias]
+  desc = "!f(){ git config branch.$1.description;};f"
+  edit-desc = "!f(){ git branch --edit-description $1;};f"
