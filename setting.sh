@@ -25,6 +25,8 @@ if [ -e ~/.vim ]; then
 	rm ~/.vim -rf
 fi
 ln -s ${dirpath}/vimfiles ~/.vim
++vim +NeoBundleInstall +qall
++vim +PluginInstall +qall
 
 
 if [ -e ~/.gitconfig ]; then
