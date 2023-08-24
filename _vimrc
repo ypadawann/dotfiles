@@ -62,8 +62,13 @@ set cursorline
 hi CursorLineNr term=bold   cterm=NONE ctermfg=228 ctermbg=NONE
 
 "タブ表示
+set expandtab "タブをスペースに置き換え
 set tabstop=2
+set softtabstop=2
 set shiftwidth=2
+
+" ファイルタイプごとの設定(vimrcの設定を上書きするデフォルト設定を上書き)
+"autocmd FileType rust setlocal tabstop=2 softtabstop=2 shiftwidth=2
 
 "エイリアス"
 command F VimFiler
