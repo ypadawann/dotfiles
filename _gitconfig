@@ -9,6 +9,7 @@
 	graph = log --graph --branches --pretty=format:'%d [%h] %s'
 	gr = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
 	grall = log --graph --all --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+	br = !git --no-pager branch
 
 [color]
 	status = auto
